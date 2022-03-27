@@ -1,1 +1,0 @@
-cikarma.py
