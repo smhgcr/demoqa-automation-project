@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ee1f05-15bc-4d5a-807c-65f6e704c577" name="Changes" comment="" />
+    <list default="true" id="d1ee1f05-15bc-4d5a-807c-65f6e704c577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SamplePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenderSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Gender_Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Gender_Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection$Genders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection$Genders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PracticeFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PracticeFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Gender_Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Gender_Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Setting_Name_LastName_Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Setting_Name_LastName_Email.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/PracticeFormPage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/BaseTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Test_Gender_Selection.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/GenderSection.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -38,6 +69,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -53,7 +86,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test_Gender_Selection.check_male_radio_button">
+  <component name="RunManager" selected="JUnit.Test_Gender_Selection">
+    <configuration name="Test_Gender_Selection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoqa-automation-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Gender_Selection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_Gender_Selection.check_male_radio_button" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoqa-automation-project" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_Gender_Selection" />
         <item itemvalue="JUnit.Test_Gender_Selection.check_male_radio_button" />
         <item itemvalue="JUnit.Test_Setting_Name_LastName_Email" />
         <item itemvalue="JUnit.Test_Setting_Name_LastName_Email.setName" />
@@ -99,7 +142,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647968071970</updated>
-      <workItem from="1647968073724" duration="10577000" />
+      <workItem from="1647968073724" duration="10891000" />
+      <workItem from="1648574919892" duration="3289000" />
     </task>
     <servers />
   </component>
