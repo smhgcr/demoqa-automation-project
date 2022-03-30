@@ -4,14 +4,15 @@ import org.openqa.selenium.WebElement;
 
 public class PracticeFormPage extends BasePage{
 
-    private final By name = By.id("firstName");
-    private final By lastName = By.id("lastName");
-    private final By email = By.id("userEmail");
+    private final By nameLocator = By.id("firstName");
+    private final By lastNameLocator = By.id("lastName");
+    private final By emailLocator = By.id("userEmail");
 
     private GenderSection genderSection;
 
     public PracticeFormPage (WebDriver driver){
         super(driver);
+        driver.get(baseUrl.concat("automation-practice-form"));
         genderSection = new GenderSection(driver);
     }
 
@@ -19,39 +20,29 @@ public class PracticeFormPage extends BasePage{
         return genderSection;
     }
 
-    public void setName(String nameAsString){
-        WebElement nameSpace = driver.findElement(name);
-        nameSpace.click();
-        nameSpace.sendKeys(nameAsString);
+    public void setName(String name){
+        type(nameLocator,name);
     }
 
-    public void setLastName(String lastNameAsString){
-        WebElement nameSpace = driver.findElement(lastName);
-        nameSpace.click();
-        nameSpace.sendKeys(lastNameAsString);
+    public void setLastName(String lastName){
+        type(lastNameLocator,lastName);
 
     }
 
-    public void setEmail(String mailAddress){
-        WebElement nameSpace = driver.findElement(email);
-        nameSpace.click();
-        nameSpace.sendKeys(mailAddress);
-
+    public void setEmail(String email){
+        type(emailLocator,email);
     }
 
     public String getName() {
-        WebElement nameSpace = driver.findElement(name);
-        return nameSpace.getAttribute("value");
+        return find(nameLocator).getAttribute("value");
 
     }
 
     public String getLastName() {
-        WebElement lastNameSpace = driver.findElement(lastName);
-        return lastNameSpace.getAttribute("value");
+        return find(lastNameLocator).getAttribute("value");
     }
 
     public String getEmail() {
-        WebElement emailSpace = driver.findElement(email);
-        return emailSpace.getAttribute("value");
+        return find(emailLocator).getAttribute("value");
     }
 }
