@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1ee1f05-15bc-4d5a-807c-65f6e704c577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoqa-automation-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa-automation-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Test_Gender_Selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Test_Gender_Selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Test_Setting_Name_LastName_Email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Test_Setting_Name_LastName_Email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test_Gender_Selection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test_Gender_Selection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test_Setting_Name_LastName_Email.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test_Setting_Name_LastName_Email.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647968071970</updated>
       <workItem from="1647968073724" duration="10891000" />
-      <workItem from="1648574919892" duration="9152000" />
+      <workItem from="1648574919892" duration="10981000" />
     </task>
     <servers />
   </component>
