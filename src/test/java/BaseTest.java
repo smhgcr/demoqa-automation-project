@@ -2,14 +2,14 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class BaseTest {
 
     protected WebDriver driver;
 
 
     @BeforeAll
-    public void setUp(){
+    public static void setUp(){
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         System.out.println("Test initiated");
 
@@ -25,11 +25,11 @@ public class BaseTest {
         driver.quit();
     }
 
-    @AfterAll
+ /*   @AfterAll
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
         System.out.println("Test finished");
-    }
+    }*/
 
 
 

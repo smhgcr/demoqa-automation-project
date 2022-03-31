@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1ee1f05-15bc-4d5a-807c-65f6e704c577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenderSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa-automation-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa-automation-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Gender_Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Gender_Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Setting_Name_LastName_Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Setting_Name_LastName_Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection$Genders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection$Genders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GenderSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GenderSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PracticeFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PracticeFormPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Gender_Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Gender_Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Setting_Name_LastName_Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Setting_Name_LastName_Email.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647968071970</updated>
       <workItem from="1647968073724" duration="10891000" />
-      <workItem from="1648574919892" duration="5946000" />
+      <workItem from="1648574919892" duration="9152000" />
     </task>
     <servers />
   </component>
